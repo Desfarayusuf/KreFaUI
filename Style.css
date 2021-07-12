@@ -1,5 +1,5 @@
 nav{
-    box-shadow: 0 0 5px 0 black;
+    box-shadow: 0 0 20px 0 grey;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,11 +14,11 @@ nav{
 
 
 h6{
-  padding-left: 100px;
+  padding-left: 95px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   float: left;
-  padding-right: 90px;
+  padding-right: 75px;
 }
 h5{
 
@@ -32,6 +32,22 @@ li{
 }
 
 .Link{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
+div a{
+  padding-top: 10px;
+}
+
+
+ul{
+  padding-right: 165px;
+}
+
+button{
+  font-size: 32px;
+}
+
+.btn{
+  font-size: 20px;
+}
