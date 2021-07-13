@@ -20,16 +20,7 @@ h6{
   float: left;
   padding-right: 75px;
 }
-h5{
 
-}
-
-li{
-  padding-top: 30px;
-  padding-left: 0px;
-  
-  position: relative;
-}
 
 .Link{
     padding-top: 20px;
@@ -37,17 +28,31 @@ li{
 
 div a{
   padding-top: 10px;
+  color: black;
 }
 
 
 ul{
-  padding-right: 165px;
+  padding-right: 145px;
 }
 
 button{
-  font-size: 32px;
+  
 }
 
 .btn{
   font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+}
+
+.btn-primary{
+  background-color: #e9f9fd;
+  border-radius: 40px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
 }
