@@ -1,0 +1,22 @@
+table{
+    box-shadow: 0 0 20px 0 grey;
+    
+}
+
+table thead{
+    border-radius: 20px;
+}
+
+tr th{
+    background-color: #26c7e7;
+    color: white;
+    text-align: center;
+    
+}
+tbody tr td{
+    border : none;
+    color: black;
+    text-align: center;
+
+    
+}
