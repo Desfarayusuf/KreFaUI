@@ -1,13 +1,15 @@
 table{
     box-shadow: 0 0 20px 0 grey;
+    border-radius: 10px;
     
 }
 
 table thead{
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 tr th{
+    
     background-color: #26c7e7;
     color: white;
     text-align: center;

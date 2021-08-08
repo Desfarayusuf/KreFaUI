@@ -13,6 +13,7 @@ nav{
 
 
 
+
 h6{
   padding-left: 95px;
   padding-top: 10px;
@@ -24,17 +25,23 @@ h6{
 
 .Link{
     padding-top: 20px;
+    
+    
+    
 }
+
 
 div a{
   padding-top: 10px;
   color: black;
+  
 }
 
 
 ul{
   padding-right: 145px;
 }
+
 
 
 
@@ -56,3 +63,8 @@ ul{
 
 
 
+.Text, a{
+  padding-top: 20px;
+
+
+}
