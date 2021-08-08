@@ -82,6 +82,13 @@
 
   }
 
+  input.agreement {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+     
+        }
+
  
  </style>
 
@@ -91,20 +98,19 @@
 <body>
 
   <nav>
-    <nav>
-      <ul>
-        <div class="image">
-          <h6><a href="#"><img src="./KreFa/KreFa image/logo_krefa/normal.png" width="150px" alt=""></a></h6>
-        </div>
-        <div class="Text">
-          <a href="#">Kreasi Face Recognition</a>
-          <ul class="nav navbar-nav navbar-right">
-          <button type="button1" class="btn btn-link">Tentang Kami</button>
-          <button type="button2" class="btn btn-primary">Daftar Masuk</button>
-        </ul>
-        </div>
-    </ul>
-    </nav>
+    <ul>
+      <div class="image">
+        <h6><a href="#"><img src="./KreFa/KreFa image/logo_krefa/normal.png" width="150px" alt=""></a></h6>
+      </div>
+      <div class="Text">
+        <a href="#">Kreasi Face Recognition</a>
+        <ul class="nav navbar-nav navbar-right">
+        <button type="button1" class="btn btn-link">Tentang Kami</button>
+        <button type="button2" class="btn btn-primary">Daftar Masuk</button>
+      </ul>
+      </div>
+  </ul>
+  </nav>
 
   <div class="container text-center">
     <img src="./KreFa/KreFa image/Screenshot 2021-07-26 110504.png  ">
@@ -178,8 +184,9 @@
   </div>
 
   <div class="container text-center">
-    <label><input type="checkbox" value="">Saya telah menyetujui kebijakan penggunaan<br>
-      dan kebijakan privasi atas platform KreFa</label>
+    <input type="checkbox" class="agreement" value="agreement">
+    <label for="agreement">Saya telah menyetujui kebijakan penggunaan<br>
+      dan kebijakan privasi atas platform KreFa</label><br>
       <br>
     <button type="button3" class="btn2">Masuk</button>
   </div>

@@ -76,6 +76,12 @@ footer {
       padding: 55px;
     }
 
+  input.agreement {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+     
+        }
 
 </style>
 
@@ -86,15 +92,15 @@ footer {
 
   <nav>
     <ul>
-      <div class="image">
-        <h6><a href="#"><img src="./KreFa/KreFa image/logo_krefa/normal.png" width="150px" alt=""></a></h6>
-      </div>
-      <div class="Text">
-        <a href="#">Kreasi Face Recognition</a>
-        <ul class="nav navbar-nav navbar-right">
-        <button type="button1" class="btn btn-link">Tentang Kami</button>
-        <button type="button2" class="btn btn-primary">Daftar Masuk</button>
+      <h6><a href="#"><img src="./KreFa/KreFa image/logo_krefa/normal.png" width="150px" alt=""></a></h6>     
+      <div class="Link">
+      <a href="#">Kreasi Face Recognition</a>
+      <ul class="nav navbar-nav navbar-right">
+      <button type="button1" class="btn btn-link">Tentang Kami</button>
+      <button type="button2" class="btn btn-primary">Daftar Masuk</button>
       </ul>
+      <!-- <button1 type="button1" class="btn btn-link">Tentang Kami</button1>
+      <button2 type="button2" class="btn btn-primary">Daftar Masuk</button2> -->
       </div>
   </ul>
   </nav>
@@ -125,8 +131,11 @@ footer {
         <input type="text" placeholder="Almat Rumah*" id="usr">
       </div>
     </form>
-    <label><input type="checkbox" value="">Saya telah menyetujui kebijakan penggunaan<br>
-      dan kebijakan privasi atas platform KreFa</label>
+
+    <input type="checkbox" class="agreement" value="agreement">
+    <label for="agreement">Saya telah menyetujui kebijakan penggunaan<br>
+      dan kebijakan privasi atas platform KreFa</label><br>
+
   </div>
   <div class="col-sm-12">
     <button type="button3" class="btn2">File</button>
